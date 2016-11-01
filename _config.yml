@@ -1,8 +1,8 @@
 # Site settings
-title:       testing
+title:       relentless coffee & curiosity
 author:      Adam Trexler
 description: "code snippets, data, curiosity"
-baseurl:     "/captains-log" 
+baseurl:     "" 
 url:         "https://ajtrexler.github.io" 
 
 # Social Links

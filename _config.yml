@@ -1,15 +1,51 @@
-# Site settings
-title:       relentless coffee & curiosity
-author:      Adam Trexler
-description: "code snippets, data, curiosity"
-baseurl:     "" 
-url:         "https://ajtrexler.github.io" 
+title: Stack Problems
+description: bottomless coffee & curiosity
+author: Adam J. Trexler
+github: https://github.com/ajtrexler
+about: xxx
+disqus_shortname: 
+google_analytics: UA-XXXXXXXX-Y
 
-# Social Links
-email:            adam.trexler@posteo.net
-twitter_username: t_rexler
-github_username:  ajtrexler
+enableTags: true
+tagarray: []
 
-# Build settings
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-skype
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/agusmakmun6"
+    - icon: fa-linkedin
+      link: "#"
+    - icon: fa-stack-exchange
+      link: "#"
+
+share:
+  twitter_username: t_rexler
+
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Projects
+      url: /projects/
+    - text: Github
+      url: https://github.com/ajtrexler
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://ajtrexler.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-permalink: pretty
+gems:
+  - jekyll-paginate
+  - jekyll-gist

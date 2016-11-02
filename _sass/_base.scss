@@ -1,153 +1,206 @@
-html {
-  font-size: $font-size-base;
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
 }
 
-/* Basic styling */
 
+
+/**
+ * Basic styling
+ */
 body {
-  color: $text-color;
-  background-color: $background-color;
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
 }
 
-/* Selection styling */
 
-::selection {
-  background: $brand-color-sub; 
-  color: $white-color;
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
 }
-::-moz-selection {
-  background: $brand-color-sub; 
-  color: $white-color;
-}
 
-/* Images */
 
-object,
-iframe,
+
+/**
+ * Images
+ */
 img {
-  display: block;
-  max-width: 100%;
-  vertical-align: middle;
-  margin: 0 auto;
+    max-width: 100%;
+    vertical-align: middle;
 }
 
-/* Figures */
 
+
+/**
+ * Figures
+ */
 figure > img {
-  display: block;
+    display: block;
 }
 
 figcaption {
-  font-size: $font-size-small;
+    font-size: $small-font-size;
 }
 
-/* Lists */
 
+
+/**
+ * Lists
+ */
 ul, ol {
-  margin-left: $spacing-unit;
+    margin-left: $spacing-unit;
 }
 
 li {
-  > ul,
-  > ol {
-    margin-bottom: 0;
-  }
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
 }
 
-/* Links */
 
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
 a {
-  color: $title-color;
-  text-decoration: none;
-
-  &:hover {
-    background-color: $brand-color-base;
-    color: $white-color;
+    color: $brand-color;
     text-decoration: none;
-  }
 
-  &:focus {
-    background-color: $brand-color-sub;
-  }
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
 }
 
-p a {
-  box-shadow: 0 1px 0 0 $brand-color-sub;
 
-  &:hover {
-    box-shadow: none;
-  }
-}
 
-/* Blockquotes */
-
+/**
+ * Blockquotes
+ */
 blockquote {
-  color: $text-color;
-  font-size: 1.44rem;
-  font-weight: 400;
-  border-left: 4px solid $brand-color-base;
-  padding-left: 1.4em;
-  margin: 2em 2em 2em 1em;
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
 
-  p {
-    font-size: inherit;
-    font-weight: 400;
-    padding: 0;
-    color: $brand-color-base;
-  }
+    > :last-child {
+        margin-bottom: 0;
+    }
 }
 
-/* Code formatting */
 
+
+/**
+ * Code formatting
+ */
 pre,
 code {
-  font-size: 0.77rem;
-  border-radius: 4px;
-  background-color: #2d2d2d;
-  color: #F8FBED;
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
 }
 
 code {
-  padding: 1px 5px 2px;
+    padding: 1px 5px;
 }
 
 pre {
-  padding: 1.5em 2em 2.5em;
-  overflow-x: auto;
+    padding: 8px 12px;
+    overflow-x: auto;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-/* Site wrapper */
-
-.site-wrap {
-  position: relative;
-  height: auto !important;
-  height: 100%;
-  min-height: 100%;
-  padding: 0 0 9.5em;
-  z-index: 1;
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
 }
 
 
-/* Wrapper */
 
+/**
+ * Wrapper
+ */
 .wrapper {
-  max-width: $content-width;
-  margin: 0 auto;
-  @extend %clearfix;
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
 }
 
-/* Clearfix */
 
+
+/**
+ * Clearfix
+ */
 %clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
 }

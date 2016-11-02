@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Canary in the coal mine
+title: canary in the coal mine
 date: 2016-10-31
 ---
 # quick coal script

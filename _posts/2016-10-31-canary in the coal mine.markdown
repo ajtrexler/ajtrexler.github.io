@@ -15,11 +15,12 @@ Yes, the coal companies stock price correlates really well with coal prices.
 
 The most surprising thing, to me anyway, was how negatively correlated my so-called control companies (GE, MSFT, GOOG, and BOA) were with coal pricing.  I suspect this reflects that the overall state of the economy is largely dependent, to some extent, on commodity pricing.  Google represented a fairly reasonable control, as its valuation was not strongly correlated with coal price.  
 
-Cross-correlation to quantify the relationship:
+Cross-correlation to quantify the relationship:  
     for x in priceframe:
       subdf=pd.concat([priceframe['Coal'],priceframe[x]],1)
       subdf.dropna(0,inplace=True)
       print 'coal to',x,np.corrcoef(subdf,rowvar=False)[0,1]
+
 correlation coefficients:  
 coal to Coal 1.0  
 coal to BHP 0.793966783557  

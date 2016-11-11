@@ -9,6 +9,7 @@ Recently there was an [interesting editorial piece](https://www.ft.com/content/b
 
 I turned to the Kaggle American Community Survey dataset to perform this analysis.  The ACS dataset contains demographic information aggregated from households polled during the US census.  For this cursory analysis, I simply extracted the average cost of rent and mortgages per household normalized to number of people in the household.  Price/sqft of space would be a better metric for further analysis, as you can easily imagine the sqft/person that families are comfortable with changes dramatically from one end of the socioeconomic ladder to the other.  I also normalized to the average household income, which helps to control for differences in living costs in different parts of the country.  Importantly, this analysis doesn't look at rents versus income, but rather, the relation of mortgage costs versus rental costs.  For example, NYC ranks very well with my `rent_afford` metric, but that doesn't mean it is cheap to live or rent there!
 
+[the analysis code](https://github.com/ajtrexler/rando/blob/master/rents1.py)
 The obvious takeaway is rent control!  Of the top ten best affordability regions, four are in NYC.
 
 After sorting according to `rent_afford`, the distribution of the PUMAs is beautiful.

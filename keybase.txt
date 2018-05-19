@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/atrexler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.adamtrexler.com
+  * I am atrexler (https://keybase.io/atrexler) on keybase.
+  * I have a public key ASArhU1Uvd-V3mFswEMwiMQNPM8yUucN7TtdDtyOIYEilgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202b854d54bddf95de616cc0433088c40d3ccf3252e70ded3b5d0edc8e218122960a",
+      "host": "keybase.io",
+      "kid": "01202b854d54bddf95de616cc0433088c40d3ccf3252e70ded3b5d0edc8e218122960a",
+      "uid": "f94b8563619e24c63d1c05a1fb20d119",
+      "username": "atrexler"
+    },
+    "merkle_root": {
+      "ctime": 1506874248,
+      "hash": "888080bb867b2bc3a8c076147e86bcc984bf4355f805d4f8d60b407832c9cac3c46e720ac5566b6c4af0f182e58dfb1790fe26984abaf52e5e4599236c86b882",
+      "hash_meta": "4acb0e2c0407bdf78edd1f32adb545e5c57e9952c427544640eea8fb643d4a0e",
+      "seqno": 1481814
+    },
+    "service": {
+      "hostname": "www.adamtrexler.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.32"
+  },
+  "ctime": 1506874389,
+  "expire_in": 504576000,
+  "prev": "1922f6d73719f451ddc591fe3093b526ede273c8d526bec12013f90acb8ca66f",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgK4VNVL3fld5hbMBDMIjEDTzPMlLnDe07XQ7cjiGBIpYKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMmI4NTRkNTRiZGRmOTVkZTYxNmNjMDQzMzA4OGM0MGQzY2NmMzI1MmU3MGRlZDNiNWQwZWRjOGUyMTgxMjI5NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMmI4NTRkNTRiZGRmOTVkZTYxNmNjMDQzMzA4OGM0MGQzY2NmMzI1MmU3MGRlZDNiNWQwZWRjOGUyMTgxMjI5NjBhIiwidWlkIjoiZjk0Yjg1NjM2MTllMjRjNjNkMWMwNWExZmIyMGQxMTkiLCJ1c2VybmFtZSI6ImF0cmV4bGVyIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA2ODc0MjQ4LCJoYXNoIjoiODg4MDgwYmI4NjdiMmJjM2E4YzA3NjE0N2U4NmJjYzk4NGJmNDM1NWY4MDVkNGY4ZDYwYjQwNzgzMmM5Y2FjM2M0NmU3MjBhYzU1NjZiNmM0YWYwZjE4MmU1OGRmYjE3OTBmZTI2OTg0YWJhZjUyZTVlNDU5OTIzNmM4NmI4ODIiLCJoYXNoX21ldGEiOiI0YWNiMGUyYzA0MDdiZGY3OGVkZDFmMzJhZGI1NDVlNWM1N2U5OTUyYzQyNzU0NDY0MGVlYThmYjY0M2Q0YTBlIiwic2Vxbm8iOjE0ODE4MTR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmFkYW10cmV4bGVyLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzIifSwiY3RpbWUiOjE1MDY4NzQzODksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMTkyMmY2ZDczNzE5ZjQ1MWRkYzU5MWZlMzA5M2I1MjZlZGUyNzNjOGQ1MjZiZWMxMjAxM2Y5MGFjYjhjYTY2ZiIsInNlcW5vIjo2LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQEG/drxmoM2NianEyXvHYZ+aDUdmLhcyArCaCJ51r0q2t5yLXs1cMJzNP+Rc5OuNRdDnEcpxF+G1WHYW7KiqAAGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCA2mGiHWCIxEs6ma63awshewj+A2qfz/Z2ROBJip+qZh6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/atrexler
+
+==================================================================

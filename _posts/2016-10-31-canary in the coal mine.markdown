@@ -2,6 +2,7 @@
 layout: post
 title: canary in the coal mine
 date: 2016-10-31
+tags: data financial
 ---
 # quick coal script
 

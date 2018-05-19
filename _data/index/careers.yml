@@ -1,0 +1,21 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Northrop Grumman Corporation
+  link: http://www.northropgrumman.com
+  date: June 2017 - Present
+  job: Data Scientist
+
+- name: National Institutes of Health
+  link: https://taraskalab.nhlbi.nih.gov/
+  date: August 2013 - June 2017
+  job: Postdoc 
+
+- name: Yale University
+  link: https://web.sas.upenn.edu/rhoades-lab/
+  date: August 2007 - August 2013
+  job: PhD in Biophysics 
+
+- name: McDaniel College
+  link: https://www.mcdaniel.edu
+  date: August 2003 - August 2007  
+  job: BA in Biology

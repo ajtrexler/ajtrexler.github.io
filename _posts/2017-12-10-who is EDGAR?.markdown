@@ -2,6 +2,7 @@
 layout: post
 title: who is EDGAR?
 date: 2017-12-20
+tags: data project financial
 ---
 
 # Analyzing EDGAR

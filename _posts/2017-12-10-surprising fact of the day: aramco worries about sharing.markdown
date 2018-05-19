@@ -2,6 +2,7 @@
 layout: post
 title: ARAMCO worries about ride-sharing 
 date: 2017-12-10
+tags: surprising_facts
 ---
 
 # Surprising fact of the day:  

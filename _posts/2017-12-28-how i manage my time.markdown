@@ -2,6 +2,7 @@
 layout: post
 title: how I manage my time 
 date: 2017-12-28
+tags: how_I_manage_X
 ---
 
 ### How I Manage my Time

@@ -1,46 +1,69 @@
-title: bottomless coffee & curiosity
-description: code snippets, data, curiosity
-author: Adam J. Trexler
-github: https://github.com/ajtrexler
-about:
-disqus_shortname:
-google_analytics: UA-XXXXXXXX-Y
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: adamtrexler.com
+email: adam.trexler@posteo.net
+description: A simple and awesome landing page for adam j. trexler
+url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
+keywords: ["adam trexler","python","data science"]
 
-enableTags: true
-tagarray: []
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Europe/Paris
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-social:
-    - icon: fa-envelope
-      link: "mailto: adam.trexler@posteo.net"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/adam-trexler-14200549"
-
-
-share:
-  twitter_username: t_rexler
-
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: Science
-      url: https://www.adamtrexler.com
-    - text: Github
-      url: https://github.com/ajtrexler
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://ajtrexler.github.io"
-baseurl: ""
-paginate: 10
-per_page: 10
-paginate_path: "/page:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: adam j. trexler, phd
+  avatar: img_profile_sm.jpg
+  job: "data scientist"
+  bio: "Professional data enthusiast and Python developer based near Washington DC"
+  email: adam.trexler@posteo.net
+  #disqus-shortname: 
+  twitter: t_rexler #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: 
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: ajtrexler #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: adam-trexler-14200549 #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username
+  pgp: #"0xdb25fe64a77a4102"
+  keybase: atrexler

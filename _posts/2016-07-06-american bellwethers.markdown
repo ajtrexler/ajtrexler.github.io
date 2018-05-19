@@ -2,6 +2,7 @@
 layout: post
 title: american bellwethers
 date: 2016-07-06
+tags: project
 ---
 A 'bellwether', defined by Wikipedia, is one that indicates or leads trends.  
 

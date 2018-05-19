@@ -1,6 +1,7 @@
 ---
 layout: post
 title: heart rate variability and running
+tags: data quantified_life
 date: 2016-11-16
 ---
 # heart rate variability (HRV) and running data

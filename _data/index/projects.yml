@@ -1,0 +1,9 @@
+- name: Northrop Grumman
+  descr: "My current professional project involves building complex multi-layered machine learning models for customers in the defense sector.  My team develops models and builds production software infrastructure for our modeling pipeline to keep things organized and reduce analyst workload on the repetitive stuff."
+  image: pong.png
+
+- name: Maat
+  descr: "The tool to solve the infovore's dilemma!  One side-project I'm developing is a mechanism to take back some of my personal bandwidth (attention) from info overload and social media.  Maat is a prototype piece of a software that will pull emails from my inbox, say newsletters and daily updates or RSS feeds, and allow me to label sections of text as interesting or not.  This is the raw data for NLP algorithms to learn what I think is interesting, and eventually, that model will drive the output of a personally-curated set of emails"
+  image: pong.png
+  github: https://ajtrexler.github.com
+  website: http://blah.com

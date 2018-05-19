@@ -2,6 +2,7 @@
 layout: post
 title: what is the unemployment rate?
 date: 2017-06-18
+tags: economics data
 ---
 
 # What is the unemployment rate?

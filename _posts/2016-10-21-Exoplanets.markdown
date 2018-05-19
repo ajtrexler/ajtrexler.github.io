@@ -2,6 +2,7 @@
 layout: post
 title: exoplanet data exploration
 date: 2016-10-21
+tags: data project
 ---
 # Where should we go?
 

@@ -1,8 +1,13 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Elder Research Inc
+  link: https://www.elderresearch.com
+  date: October 2018 - Present
+  job: Data Scientist
+
 - name: Northrop Grumman Corporation
   link: http://www.northropgrumman.com
-  date: June 2017 - Present
+  date: June 2017 - October 2018
   job: Data Scientist
 
 - name: National Institutes of Health

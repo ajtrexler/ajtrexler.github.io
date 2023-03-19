@@ -36,7 +36,7 @@ owner:
   name: adam j. trexler, phd
   avatar: img_profile_sm.jpg
   job: "data scientist"
-  bio: "Professional data enthusiast and Python developer based near Washington DC"
+  bio: "Professional data enthusiast based near Washington DC"
   email: adam.trexler@posteo.net
   #disqus-shortname: 
   twitter: t_rexler #username
@@ -66,4 +66,3 @@ owner:
   codepen: #username
   telegram: #username
   pgp: #"0xdb25fe64a77a4102"
-  keybase: atrexler
